@@ -1,13 +1,45 @@
 <svg id="bg" xmlns="http://www.w3.org/2000/svg" width="2560" height="1600" viewBox="0 0 2560 1600">
   <defs>
     <style>
-      #colline {fill: #80493c;}
-      #tour-gauche {fill: #565656;}
-      #tour-droite {fill: #484848;}
-      #rempart {fill: #404040;}
-      #toit-gauche {fill: #2a4d66;}
-      #toit-droite {fill: #223f51;}
-      #porte {fill: #ad4d3a;}
+      #colline {
+	    fill: #80493c;
+	    stroke: #80493c;
+	    stroke-width: 1px;
+	  }
+
+	  #tour-gauche {
+	    fill: #565656;
+	    stroke: #565656;
+	    stroke-width: 1px;
+	  }
+
+	  #tour-droite {
+	    fill: #484848;
+	    stroke: #484848;
+	    stroke-width: 1px;
+	  }
+
+	  #rempart {
+	    fill: #404040;
+	    stroke: #404040;
+	    stroke-width: 1px;
+	  }
+
+	  #toit-gauche {
+	    fill: #2a4d66;
+	    stroke: #223f51;
+	    stroke-width: 1px;
+	  }
+
+	  #toit-droite {
+	    fill: #223f51;
+	    stroke: #223f51;
+	    stroke-width: 1px;
+	  }
+
+	  #porte {
+	    fill: #ad4d3a;
+	  }
   	</style>
   </defs>
   <title>bg</title>
