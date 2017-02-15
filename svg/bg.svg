@@ -1,0 +1,21 @@
+<svg id="bg" xmlns="http://www.w3.org/2000/svg" width="2560" height="1600" viewBox="0 0 2560 1600">
+  <defs>
+    <style>
+      #colline {fill: #80493c;}
+      #tour-gauche {fill: #565656;}
+      #tour-droite {fill: #484848;}
+      #rempart {fill: #404040;}
+      #toit-gauche {fill: #2a4d66;}
+      #toit-droite {fill: #223f51;}
+      #porte {fill: #ad4d3a;}
+  	</style>
+  </defs>
+  <title>bg</title>
+  <polygon id="colline" points="1809 1600 751 1600 1151 893 1409 893 1809 1600"/>
+  <rect id="tour-gauche" x="1151" y="593" width="75" height="300"/>
+  <rect id="tour-droite" x="1334" y="593" width="75" height="300"/>
+  <rect id="rempart" x="1226" y="713" width="108" height="180"/>
+  <polygon id="toit-gauche" points="1188.5 500 1151 582.646 1141 593 1236 593 1226 582.646 1188.5 500"/>
+  <polygon id="toit-droite" points="1371.5 500 1334 582.646 1324 593 1419 593 1409 582.646 1371.5 500"/>
+  <path id="porte" d="M1280,803h0a21,21,0,0,1,21,21v69a0,0,0,0,1,0,0h-42a0,0,0,0,1,0,0V824A21,21,0,0,1,1280,803Z"/>
+</svg>
