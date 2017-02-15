@@ -232,9 +232,21 @@ h1 {
 /* Flexbox
 --------------------------------------------- */
 .mosaique {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex: row wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: stretch;
   align-content: center;
+}
+.mosaique__img {
+  min-width: 225px;
+}
+@media screen and (max-width: 900px) {
+  .mosaique__img {
+    min-width: 0;
+  }
 }
